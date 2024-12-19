@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\QSS">
+      <UniqueIdentifier>{cdc6c66b-d267-4664-874a-894b2c276221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img">
+      <UniqueIdentifier>{847abe58-a26d-49b0-9d84-aad3bdb11cc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="LiverCalc.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="LiverCalc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtRcc Include="res\QtSheetStyle.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="res\BMI.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="res\root.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\QSS\Aqua.qss">
+      <Filter>Resource Files\QSS</Filter>
+    </None>
+    <None Include="res\QSS\ExcelOffice.qss">
+      <Filter>Resource Files\QSS</Filter>
+    </None>
+    <None Include="res\QSS\MacOS.qss">
+      <Filter>Resource Files\QSS</Filter>
+    </None>
+    <None Include="res\QSS\ManjaroMix.qss">
+      <Filter>Resource Files\QSS</Filter>
+    </None>
+    <None Include="res\QSS\Obit.qss">
+      <Filter>Resource Files\QSS</Filter>
+    </None>
+    <None Include="res\QSS\Ubuntu.qss">
+      <Filter>Resource Files\QSS</Filter>
+    </None>
+    <None Include="res\img\apple.svg">
+      <Filter>Resource Files\img</Filter>
+    </None>
+    <None Include="res\img\file.svg">
+      <Filter>Resource Files\img</Filter>
+    </None>
+    <None Include="res\img\file64.svg">
+      <Filter>Resource Files\img</Filter>
+    </None>
+    <None Include="res\img\file70.svg">
+      <Filter>Resource Files\img</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\img\apple.ico">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
