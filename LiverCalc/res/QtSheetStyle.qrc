@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/">
+    <qresource prefix="/res">
         <file>img/apple.svg</file>
         <file>img/apple.ico</file>
         <file>img/file70.svg</file>
